@@ -51,7 +51,7 @@ axes[1].axis('off')
 plt.tight_layout()
 
 # 保存对比图
-output_path = 'demo/results/Mask_RCNN/img_1_comparison_in.png'
+output_path = '' # 这里填写输出路径
 plt.savefig(output_path, dpi=300, bbox_inches='tight')  # dpi 可以根据需求调整
 plt.show()
 
